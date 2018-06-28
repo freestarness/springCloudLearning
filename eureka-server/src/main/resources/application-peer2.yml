@@ -6,6 +6,8 @@ spring:
 eureka:
   instance:
     hostname: peer2
+    ipAddress: 127.0.0.1
+    preferIpAddress: true
   client:
     serviceUrl:
       defaultZone: http://peer1:8761/eureka/

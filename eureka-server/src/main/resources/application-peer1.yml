@@ -5,6 +5,8 @@ spring:
   profiles: peer1
 eureka:
   instance:
+    ipAddress: 127.0.0.1
+    preferIpAddress: true
     hostname: peer1
   client:
     serviceUrl:
